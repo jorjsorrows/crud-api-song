@@ -14,7 +14,7 @@ import (
 var DB *gorm.DB
 var err error
 
-const DNS = "root:(PASSWORD)@tcp(127.0.0.1:3306)/songs?charset=utf8mb4&parseTime=True&loc=Local"
+const DNS = "password"
 
 type Songs struct {
 	gorm.Model
